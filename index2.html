@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Page</title>
+    <style>
+        /* CSS for the navigation bar */
+        header {
+            background-color: #1C2833;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 20px;
+        }
+        
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+        
+        img, audio, video {
+            display:block;
+            margin:0 auto;
+        }
+        .navb{
+            background-color: #2C3E50;
+            padding: 15px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <h1>Welcome to My Web Page</h1>
+    </header>
+    <nav class="navb">
+            <a href="#home"><u>Home</u></a>
+            <a href="#about"><u>About</u></a>
+            <a href="#services"><u>Services</u></a>
+            <a href="#contact"><u>Contacts</u></a>
+    </nav>
+
+    
+    <main>
+
+        <img src="Myimage.jpg" alt="Image" width="300" height="300" style="padding: 30px;">
+        <i style="font-size: 20px;"><b>❤️ Vaishnavi Shinde ❤️</b></i>
+        <hr>
+        <section id="home">
+            <h2 style="text-align: center;"><u>HOME</u></h2>
+            <pre style="font-size: 20px;">Welcome to my website. This is the home page.</pre>
+            <hr>
+        </section>
+
+        <section id="about">
+            <h2><u>ABOUT</u></h2>
+            <pre style="font-size: 20px;">
+I'm a first year student in Shri Ramdeobaba College of Engineering and Management,Nagpur.
+Branch-CSE-Data Science
+            </pre>
+            <hr>
+        </section>
+
+        <section id="services">
+            <h2><u>SERVICES</u></h2>
+            <pre style="font-size: 20px;">Here are some services I offer:
+1.Programming Languages-Python and C programming
+2.Problem Solving and Debugging
+3.Version Control
+            </pre>
+            <hr>
+        </section>
+
+        <section id="contact">
+            <h2><u>CONTACTS</u></h2>
+            <pre style="font-size: 20px;">Contact me using the following information:
+Email: vaishnavi@email.com
+Phone: +91 8568264785</pre>
+            <hr>
+        </section>
+
+        <h2><u>MY PROJECT</u></h2>
+        <video  width="400" height="300" controls>
+            <source src="Myvideo.3gp">
+            Your browser does not support the video element.
+        </video>
+        <pre style="font-size: 20px;">
+This project is about a <b>Path Following Robot</b>.It contains IR sensors due to which it 
+recognise the hand and follows it. Apart from that, it also contain Microcontroller,Arduino Board,
+Motor driver module,two motors etc.
+
+For other information,go through the audio given below
+        </pre>
+        <audio controls>
+            <source src="audio.mp3">
+            Your browser does not support the audio element.
+        </audio>
+        <hr>
+        <pre style="font-size: 35px;"><b>* * *</b></pre>
+    </main>
+</body>
+</html>
